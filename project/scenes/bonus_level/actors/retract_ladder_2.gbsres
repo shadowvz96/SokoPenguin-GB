@@ -1,0 +1,52 @@
+{
+  "_resourceType": "actor",
+  "id": "86fdc892-bf31-4a64-806c-f738608f7c4e",
+  "name": "retract ladder 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2b16123a-18a5-4180-8aa8-2ee4022c0665",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_93",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "off",
+        "loopAnim": false
+      },
+      "id": "55bfe7e9-dc43-4ee3-bc6b-55df3a3254f0"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "684da027-30e0-4d30-8359-eb3a10dbbae5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "e016a945-40be-4dde-825d-2d7d835df6da"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 3,
+  "_index": 16
+}

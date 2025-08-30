@@ -1,0 +1,42 @@
+{
+  "_resourceType": "actor",
+  "id": "3d5837df-49d1-4c5e-be35-cde84ff4d536",
+  "name": "walkie talkie",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c5a1284-25c6-4e53-9c47-c3867691902a",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_94",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "af38e20e-f0e1-4cb7-af2d-f7b2b67d27d0"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6b87a6bc-b4a7-4196-8387-6e754bea5753"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 25,
+  "_index": 17
+}

@@ -1,0 +1,62 @@
+{
+  "_resourceType": "scene",
+  "id": "5cfd0efa-f2f1-4a42-91a3-13a4e0583be4",
+  "_index": 14,
+  "name": "Beat 10 Levels - 1",
+  "backgroundId": "0c4944fa-8d07-459f-85c6-d62d2e86b16a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 448,
+  "y": 1464,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a452e8a0-9057-4c46-8344-0b7fdffad160"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 8,
+        "frames": 30
+      },
+      "id": "0b92d1f0-b9fd-4c75-98a0-dd69fe0cfd4a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "53aa00c7-05fd-43ea-a5a2-09209d8f302f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "affdf247-1323-4415-bc65-e96bad218c32"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e2c46cf8-9503-40f4-acf4-fcd8dfaa00c7"
+      },
+      "id": "ca56caa0-3255-40b5-9c2d-79f76f8ca92d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

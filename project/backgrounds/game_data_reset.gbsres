@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d9d85c7d-9d01-4c16-ba76-d9d650842491",
+  "name": "game data reset",
+  "symbol": "bg_game_data_reset",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "game data reset.png",
+  "tileColors": "",
+  "autoColor": false
+}

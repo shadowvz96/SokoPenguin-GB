@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "259891e7-853f-4c82-9dfa-6c8b6e338b05",
+  "name": "Crate 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b4861590-4e1c-4131-9d62-6a678542e185",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_74",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "0b9eb8e1-c2cf-4ab1-a194-1eb1f216863d",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 10,
+        "__collapse": false
+      },
+      "id": "438a4fd7-31a2-4151-811b-fa42e1c13106"
+    },
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false
+      },
+      "id": "96eda769-0a41-4c23-9260-7da937a1ecba"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "259891e7-853f-4c82-9dfa-6c8b6e338b05",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "0faf5a0b-5f29-46e8-bd88-69d1dd8b3c3d"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "ee37f0cb-93ed-4944-bcf1-eae771d65ac6"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30
+            },
+            "id": "b4b79390-8e82-4037-8489-b5feed63dfc7"
+          }
+        ],
+        "false": []
+      },
+      "id": "63ea6844-5abc-45b5-932b-ee075ca894b2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 15,
+  "_index": 0
+}

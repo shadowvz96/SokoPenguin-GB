@@ -1,0 +1,94 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "a8120e62-d843-4542-9558-0078c1a6876c",
+  "name": "playerDrownTrigger",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "ecbcdf43-4662-4846-8272-0c9bfb5b443b",
+      "children": {}
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "1a3723a2-5206-474b-a7db-767bece08f7f",
+        "__collapse": false
+      },
+      "id": "35cc936c-06fc-4e24-ae98-e0dee397f54c",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "571ef226-eb4a-4173-b570-4964a762cce3",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "f6dcd039-b70d-4cad-9edb-1c10d6b35564",
+      "children": {}
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "37781f5d-67a4-48ff-a391-6af333dabbf1"
+      },
+      "id": "f2d1ce50-fe75-4222-975d-4062d47c7253",
+      "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "240eeb4c-407c-4ae6-8658-99d82bec37ac",
+      "children": {}
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "831fa1e8-3c85-4b15-896a-323f43804d9c",
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 21
+        },
+        "direction": "down",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "4cc993c7-6607-4731-a4bc-fecde6d2a3e2",
+      "children": {}
+    }
+  ],
+  "leaveScript": []
+}

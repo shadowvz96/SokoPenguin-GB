@@ -1,0 +1,49 @@
+{
+  "_resourceType": "actor",
+  "id": "be6a4947-2751-487d-bf65-7cb41a6d1439",
+  "name": "Crate 4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b4861590-4e1c-4131-9d62-6a678542e185",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_78",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "0b9eb8e1-c2cf-4ab1-a194-1eb1f216863d",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 10,
+        "__collapse": false
+      },
+      "id": "094f8f0a-c329-4091-9f89-90fc7ab298c8"
+    },
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false
+      },
+      "id": "0fc1bf3c-1d97-4cf8-8dc4-36fc22ce4925"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 19,
+  "_index": 4
+}

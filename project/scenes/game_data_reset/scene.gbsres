@@ -1,0 +1,62 @@
+{
+  "_resourceType": "scene",
+  "id": "7d21dd69-89c6-457d-b675-0365df6f30cb",
+  "_index": 20,
+  "name": "Game Data Reset",
+  "backgroundId": "d9d85c7d-9d01-4c16-ba76-d9d650842491",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 1160,
+  "y": 1648,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d95dd377-8f67-4cd3-b0f6-97b879f5678f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 5,
+        "frames": 30
+      },
+      "id": "6cf7d90a-347e-488f-8be7-2493e4f1164a"
+    },
+    {
+      "command": "EVENT_CLEAR_DATA",
+      "args": {
+        "saveSlot": 0
+      },
+      "id": "1787010b-01c5-4f4b-af1e-8f1aba8eeab7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "55a4911f-e792-4077-b95c-cb95f30d8275"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,62 @@
+{
+  "_resourceType": "scene",
+  "id": "53aa00c7-05fd-43ea-a5a2-09209d8f302f",
+  "_index": 15,
+  "name": "Beat 10 Levels - 2",
+  "backgroundId": "46d1286e-3190-41e7-8d90-0c07494fc1b3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 632,
+  "y": 1464,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "de3e6a6a-1b2c-4efc-b903-8b04fd98d7ae"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9b36118e-81f3-4768-a689-ef9d2cccab3b",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "73e7878e-9a67-4d98-aeb9-97ac9f58dd03"
+          }
+        ]
+      },
+      "id": "d8cdcb11-fc13-4905-a46c-e2655092162d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

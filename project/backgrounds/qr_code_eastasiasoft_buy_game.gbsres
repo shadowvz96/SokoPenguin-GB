@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "632d6261-7835-46a2-9ed8-2c12588eec57",
+  "name": "qr code eastasiasoft buy game",
+  "symbol": "bg_qr_code_eastasiasoft_buy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "qr code eastasiasoft buy game.png",
+  "tileColors": "",
+  "autoColor": false
+}

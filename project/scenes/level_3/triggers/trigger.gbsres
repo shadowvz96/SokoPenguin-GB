@@ -1,0 +1,28 @@
+{
+  "_resourceType": "trigger",
+  "id": "bc826957-b4f6-40c3-9035-713bf09aef00",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 28,
+  "symbol": "trigger_11",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "e28c4e41-2fa1-408e-bd58-f004b82b67ad"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

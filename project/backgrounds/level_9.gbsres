@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c968d6a3-b17f-40e9-a6f7-d3a3f5e91e4b",
+  "name": "Level 9",
+  "symbol": "bg_level_9",
+  "width": 40,
+  "height": 34,
+  "imageWidth": 320,
+  "imageHeight": 272,
+  "filename": "Level 9.png",
+  "tileColors": "",
+  "autoColor": false
+}

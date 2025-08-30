@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "cd1c341d-79fa-4c58-978e-dc6e291a7f92",
+  "name": "water animated",
+  "symbol": "sprite_water_animated",
+  "width": 8,
+  "height": 2,
+  "imageWidth": 64,
+  "imageHeight": 16,
+  "filename": "water animated.png"
+}

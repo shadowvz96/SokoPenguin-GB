@@ -1,0 +1,70 @@
+{
+  "_resourceType": "scene",
+  "id": "4f4e579f-c28a-4117-9064-1f5002117d19",
+  "_index": 19,
+  "name": "support eastasia soft",
+  "backgroundId": "632d6261-7835-46a2-9ed8-2c12588eec57",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 1512,
+  "y": 1464,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "011de64a-8c8f-4079-9f91-0e086462a431"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30
+            },
+            "id": "68dbbaba-dcb2-4b38-aaab-dd56232dec93"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b2939a2f-aa62-48fc-bf46-9eda3b2c34e3",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ad2d58ee-0b00-4078-8938-68c7b735f12f"
+          }
+        ]
+      },
+      "id": "93cd0c0e-c138-4660-b98c-c9fd01c27bca"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

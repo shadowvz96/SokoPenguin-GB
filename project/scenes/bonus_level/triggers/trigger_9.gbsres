@@ -1,0 +1,134 @@
+{
+  "_resourceType": "trigger",
+  "id": "2fdbb979-585c-4e50-9498-98dd6aeba437",
+  "name": "",
+  "prefabId": "",
+  "x": 2,
+  "y": 24,
+  "symbol": "trigger_63",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "32"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 255
+            },
+            "id": "2e82e0e3-248e-4c8b-9b35-47fd94442a64"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "99e491dc-2c57-4e5f-a4ec-b47346cbdcd3",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 8
+            },
+            "id": "3403b4a7-c150-4688-9019-e5534d4dd207"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Received 1x\nWalkie Talkie!\n(It's ice cold!)"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "336f3b9c-fdec-4595-85cb-2464a660a9f4"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "3d5837df-49d1-4c5e-be35-cde84ff4d536"
+            },
+            "id": "c7c6839b-8458-4b82-883c-ccaf114614b9"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "32",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "e7b27c24-8da5-43ca-8ca0-aa24ee57d22b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "70f8f519-6743-4b1a-8d1a-3c429049e1c4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "id": "8f3f19fd-f4ed-4cb6-b147-ceb491cb4326"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 15
+            },
+            "id": "6aeb9601-2e94-4514-b12d-242f916e38ca"
+          }
+        ],
+        "false": []
+      },
+      "id": "fb187f61-ebe3-4741-9e7a-6d5cd447d6a4"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 8
+}

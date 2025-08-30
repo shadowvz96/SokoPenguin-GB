@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5a3d09b5-cc3a-4d6c-ba4d-9bad881200d2",
+  "name": "Level 7",
+  "symbol": "bg_level_7",
+  "width": 40,
+  "height": 34,
+  "imageWidth": 320,
+  "imageHeight": 272,
+  "filename": "Level 7.png",
+  "tileColors": "",
+  "autoColor": false
+}

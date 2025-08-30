@@ -1,0 +1,95 @@
+{
+  "_resourceType": "trigger",
+  "id": "8cd50765-67d8-4824-8424-5875d06fcf29",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 15,
+  "symbol": "trigger_55",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "92633f4c-5c33-4ded-80e6-5659891ac456"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "15f782d4-e70b-4529-8c29-f62735d660d9",
+              "text": [
+                "Hey! I'm Burter.\nI don't know\nwhere I am, but",
+                "I see penguins! \nCool...",
+                "Umm, should\nprobably ask for\nhelp on getting",
+                "out of here.\nLet's start with\nthe penguin up",
+                "there above us.\nOh, I can't \nswim..."
+              ],
+              "__section": "text",
+              "avatarId": "db10ace8-2bb2-47db-9ede-b1252faa85e7",
+              "minHeight": 4,
+              "maxHeight": 10,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "e7c4a3b7-f3af-4283-a8f3-14c3b7e8bb32"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "20",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": false
+            },
+            "id": "e9dd4b30-18c0-4a7f-8f07-9c9f2b443c1d"
+          }
+        ],
+        "false": []
+      },
+      "id": "f255c548-e0dc-400c-a2b2-c91a43c2a19c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

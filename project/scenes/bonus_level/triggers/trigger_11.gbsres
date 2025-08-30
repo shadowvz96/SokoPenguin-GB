@@ -1,0 +1,172 @@
+{
+  "_resourceType": "trigger",
+  "id": "3e502841-dfd6-4081-ab91-916bb438e2ca",
+  "name": "",
+  "prefabId": "",
+  "x": 34,
+  "y": 10,
+  "symbol": "trigger_65",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "33"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 34
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "7b956346-d7bf-441e-a9bd-58cb74b457d1",
+            "children": {}
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "226598b5-66e0-476c-800b-c09e1fced1ad",
+              "__collapse": false
+            },
+            "id": "7e2baeda-5cf0-452f-98d6-c532e1214c68",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 15
+            },
+            "id": "7bb3a3ec-d07f-4cd7-8838-98dda1f818c0"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "50c631e7-d349-4764-b787-574008a7f7db",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "2f89ab54-c819-4d9d-a987-a59e44c6f9fa",
+            "children": {}
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0b9eb8e1-c2cf-4ab1-a194-1eb1f216863d",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 11
+            },
+            "id": "e184787c-4fab-495d-8d4c-217ea822fb6c"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "37781f5d-67a4-48ff-a391-6af333dabbf1",
+              "__collapse": false
+            },
+            "id": "9acf7bbf-0c39-46e9-a384-166dd17a1a72",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "984d935f-2208-4ae8-a1d5-42a6e5f018f1",
+            "children": {}
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9b36118e-81f3-4768-a689-ef9d2cccab3b",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "down",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "fdfc75ac-642f-4e25-aa3c-7ebf39caf47d",
+            "children": {}
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "33"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "c2289e66-dc9a-4331-9bbb-317547948524"
+          }
+        ]
+      },
+      "id": "9c8fcd99-32a3-4361-a812-798ee66649ff"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 10
+}

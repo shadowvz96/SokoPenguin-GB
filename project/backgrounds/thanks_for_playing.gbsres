@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "01637072-6ac6-43b1-9061-a62b69d32f2a",
+  "name": "Thanks for playing",
+  "symbol": "bg_thanks_for_playing",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Thanks for playing.png",
+  "tileColors": "",
+  "autoColor": false
+}

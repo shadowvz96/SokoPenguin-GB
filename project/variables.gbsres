@@ -1,0 +1,220 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Seen Cat",
+      "symbol": ""
+    },
+    {
+      "id": "1",
+      "name": "Seen duck",
+      "symbol": ""
+    },
+    {
+      "id": "2",
+      "name": "Used Radio",
+      "symbol": ""
+    },
+    {
+      "id": "3",
+      "name": "Spoke To Space Dog",
+      "symbol": ""
+    },
+    {
+      "id": "4",
+      "name": "Quest1",
+      "symbol": ""
+    },
+    {
+      "id": "5",
+      "name": "Quest2",
+      "symbol": ""
+    },
+    {
+      "id": "6",
+      "name": "Quest3",
+      "symbol": ""
+    },
+    {
+      "id": "7",
+      "name": "Quest4",
+      "symbol": ""
+    },
+    {
+      "id": "8",
+      "name": "Quest5",
+      "symbol": ""
+    },
+    {
+      "id": "9",
+      "name": "Quest6",
+      "symbol": ""
+    },
+    {
+      "id": "10",
+      "name": "NewGame",
+      "symbol": ""
+    },
+    {
+      "id": "11",
+      "name": "SaveGame",
+      "symbol": ""
+    },
+    {
+      "id": "12",
+      "name": "PushedIceBlock",
+      "symbol": ""
+    },
+    {
+      "id": "13",
+      "name": "0",
+      "symbol": "var_0"
+    },
+    {
+      "id": "14",
+      "name": "LastLevelCompleted",
+      "symbol": "var_lastlevelcompleted"
+    },
+    {
+      "id": "15",
+      "name": "PlayerDirection",
+      "symbol": "var_playerdirection"
+    },
+    {
+      "id": "16",
+      "name": "Crate5HandledL6",
+      "symbol": "var_crate5handledl6"
+    },
+    {
+      "id": "17",
+      "name": "Crate3L4X",
+      "symbol": "var_crate3l4x"
+    },
+    {
+      "id": "18",
+      "name": "Crate4L4X",
+      "symbol": "var_crate4l4x"
+    },
+    {
+      "id": "19",
+      "name": "DistCr3and4L4",
+      "symbol": "var_distcr3and4l4"
+    },
+    {
+      "id": "20",
+      "name": "introBonusLevel",
+      "symbol": "var_introbonuslevel"
+    },
+    {
+      "id": "21",
+      "name": "spokeWpenguin1",
+      "symbol": "var_spokewpenguin1"
+    },
+    {
+      "id": "22",
+      "name": "BonusRetractL1",
+      "symbol": "var_bonusretractl1"
+    },
+    {
+      "id": "23",
+      "name": "BonusCodeWord1",
+      "symbol": "var_bonuscodeword1"
+    },
+    {
+      "id": "24",
+      "name": "spokeWPenguin2",
+      "symbol": "var_spokewpenguin2"
+    },
+    {
+      "id": "25",
+      "name": "BonusPeng3Quiz",
+      "symbol": "var_bonuspeng3quiz"
+    },
+    {
+      "id": "26",
+      "name": "BonusPeng3QuizFailed",
+      "symbol": "var_bonuspeng3quizfailed"
+    },
+    {
+      "id": "27",
+      "name": "BonusPeng3QuizPass",
+      "symbol": "var_bonuspeng3quizpass"
+    },
+    {
+      "id": "28",
+      "name": "spokeWPeng3",
+      "symbol": "var_spokewpeng3"
+    },
+    {
+      "id": "29",
+      "name": "BonusRetractL2",
+      "symbol": "var_bonusretractl2"
+    },
+    {
+      "id": "30",
+      "name": "spokeWPeng4",
+      "symbol": "var_spokewpeng4"
+    },
+    {
+      "id": "31",
+      "name": "BonusRetractL3",
+      "symbol": "var_bonusretractl3"
+    },
+    {
+      "id": "32",
+      "name": "spokeWPeng6",
+      "symbol": "var_spokewpeng6"
+    },
+    {
+      "id": "cce7d3ef-7e02-412a-a0a9-d849938abc34__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "53d7698a-7657-41c0-9179-14ca25792adc__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "1a2ce472-771a-43db-b007-e64de8bfc7c7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "e1808950-3173-4a3b-a1bc-b5d806b53e68__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "1ed89846-9f44-4646-a33a-2e6ee0e60f83__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "cb162f9d-a971-49a5-b72d-46e4987d1219__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "4520f86c-f9c2-4a38-a9fe-ce946183943d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "33",
+      "name": "BonusRetractL4",
+      "symbol": "var_bonusretractl4"
+    },
+    {
+      "id": "f85f17c7-a537-4596-9479-39ad259eb121__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "34",
+      "name": "titleOptions",
+      "symbol": "var_titleoptions"
+    }
+  ]
+}

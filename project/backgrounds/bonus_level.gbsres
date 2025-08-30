@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e1d4a083-2e29-47a5-9f7c-47e8cebe7423",
+  "name": "Bonus Level",
+  "symbol": "bg_bonus_level",
+  "width": 40,
+  "height": 34,
+  "imageWidth": 320,
+  "imageHeight": 272,
+  "filename": "Bonus Level.png",
+  "tileColors": "",
+  "autoColor": false
+}

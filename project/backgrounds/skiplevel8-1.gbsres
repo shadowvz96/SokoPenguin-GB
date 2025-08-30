@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b72c1542-85ec-4856-9a49-f9b39485c027",
+  "name": "skipLevel8-1",
+  "symbol": "bg_skiplevel8_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "skipLevel8-1.png",
+  "tileColors": "",
+  "autoColor": false
+}

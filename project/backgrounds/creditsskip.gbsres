@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "041e0def-a88a-4fd2-acab-0a75072c4726",
+  "name": "creditsSkip",
+  "symbol": "bg_creditsskip",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "creditsSkip.png",
+  "tileColors": ""
+}
