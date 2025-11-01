@@ -3,6 +3,11 @@ SokoPenguin (fan-game/demake) made in GB Studio #gbcompo25
 
 https://bbb-studio.itch.io/sokopenguin-gb
 
+*** ​UPDATED TO VERSION 1.1 ***
+
+    ​Collisions fixed for all levels
+    ​Crates' possible movement tiles fixed​​
+
 (THIS CAN BE PLAYED IN A MOBILE/DESKTOP WEB BROWSER)
 
 If there's no audio, click on the game window and the audio will resume
@@ -76,4 +81,3 @@ https://forums.libretro.com/t/i-made-a-4k-gba-overlay-for-retroarch/36117/34
 RetroArch Additions - Overlays
 
 By: mezzb Dec '21
-​​
